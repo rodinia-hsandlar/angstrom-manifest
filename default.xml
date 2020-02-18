@@ -9,7 +9,7 @@
   <default revision="warrior" sync-j="16"/>
   
   <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github"/>
-  <project name="rodinia-hsandlar/meta-angstrom" path="layers/meta-angstrom" remote="github" revision="rodinia">
+  <project name="rodinia-hsandlar/meta-angstrom" path="layers/meta-angstrom" remote="github" revision="bugfix/issue44">
     <copyfile dest="setup-environment" src="setup-environment-internal"/>
   </project>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="layers/meta-rtlwifi" remote="github" revision="3d920444e433ceddecb7809da0ebab278d57e1ef"/>
